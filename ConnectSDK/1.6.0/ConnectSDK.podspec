@@ -31,8 +31,7 @@ Pod::Spec.new do |s|
   s.social_media_url   = "http://twitter.com/ConnectSDK"
   s.platform     = :ios, "7.1"
   s.ios.deployment_target = "7.1"
-  s.source       = { :git => "https://github.com/ConnectSDK/Connect-SDK-iOS.git",
-                     :tag => s.version,
+  s.source       = { :git => "https://github.com/MisaGu/Connect-SDK-iOS.git",
                      :submodules => true }
 
   s.xcconfig = {
