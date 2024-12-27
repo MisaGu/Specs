@@ -9,7 +9,7 @@
 # cannot include its support in a subspec in an automated way.
 
 Pod::Spec.new do |s|
-  s.name         = "ConnectSDKLocal"
+  s.name         = "ConnectSDK"
   s.version      = "1.6.0"
   s.summary      = "Connect SDK is an open source framework that connects your mobile apps with multiple TV platforms."
 
@@ -93,7 +93,7 @@ Pod::Spec.new do |s|
     sp.private_header_files = "core/**/*_Private.h"
     sp.requires_arc = true
 
-    sp.dependency 'ConnectSDKLocal/no-arc'
+    sp.dependency 'ConnectSDK/no-arc'
   end
 
   s.subspec 'no-arc' do |sp|
